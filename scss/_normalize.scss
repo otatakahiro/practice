@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $fontFamily-p;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    @include flexBox;
+}
+
+main {
+
+    > section {
+        @include flexBox;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+h1, h2, h3 {
+    font-family: $fontFamily-h;
+}
+
+a {
+    text-decoration: none;
+}
+
